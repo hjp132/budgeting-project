@@ -3,7 +3,6 @@ const port = process.env.PORT;
 const path = require('path');
 const hbs = require('hbs');
 const express = require('express');
-const mongoose = require('mongoose');
 
 
 app.listen(port, () => {

@@ -2,6 +2,7 @@
 - -create sass compilers
 - -create grunt config
 - -make css/scss folder structure
+- -fix port var in index.js
 
 - other to do list:
 - - create js struct
