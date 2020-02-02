@@ -3,10 +3,13 @@ const port = process.env.PORT;
 const path = require('path');
 const hbs = require('hbs');
 const express = require('express');
+const mongoose = require('mongoose');
 
+
+app.set('port', process.env.PORT);
 
 app.listen(port, () => {
-    console.log('Server is up on port ' + port)
+    console.log('Server is up on port ' + port) 
 });
 
 
@@ -28,6 +31,8 @@ app.use('/',router);
 
 app.get('/home', (req, res) => {
     res.render('index', {
+        title: 'Home',
+        name: 'HP'
 
     })
 });
