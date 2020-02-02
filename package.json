@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/hjp132/budgeting-project#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "grunt": "^1.0.4",
     "handlebars": "^4.7.2",
+    "mongoose": "^5.8.11",
     "sass": "^1.25.0"
   }
 }
