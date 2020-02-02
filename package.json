@@ -1,0 +1,24 @@
+{
+  "name": "budgeting-project",
+  "version": "1.0.0",
+  "description": "budgeting-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjp132/budgeting-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjp132/budgeting-project/issues"
+  },
+  "homepage": "https://github.com/hjp132/budgeting-project#readme",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "handlebars": "^4.7.2",
+    "sass": "^1.25.0"
+  }
+}
