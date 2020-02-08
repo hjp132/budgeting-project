@@ -1,9 +1,9 @@
 -harrys to  do list
-- -create sass compilers
+- -create sass compilers @done
 - -create grunt config
-- -make css/scss folder structure
-- -fix port var in index.js
-
+- -make css/scss folder structure @done
+- -fix port var in index.js @done
+- - create basic home page
 - other to do list:
 - - create js struct
 - - create mogodb 

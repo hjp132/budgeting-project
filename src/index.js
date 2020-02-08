@@ -39,11 +39,8 @@ app.get('/home', (req, res) => {
 });
 
 
-
-
-
 app.get('*', (req, res) => {
-    res.render('index', {
+    res.render('layout', {
         title: 'Home'
     })
 });

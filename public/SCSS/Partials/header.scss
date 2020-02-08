@@ -1,0 +1,13 @@
+header{
+    background-color: grey;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+    width: 100%;
+    .nav-logo{
+        float: left;
+    }
+    .nav-section{
+        float: right;
+    }
+}
