@@ -1,13 +1,30 @@
+
 header{
-    background-color: grey;
+    
+    background-color: $base-color;
     display: inline-block;
     padding: 20px;
     vertical-align: middle;
     width: 100%;
+    color: white;
+    .nav-logo a {
+        color: white;
+    }
     .nav-logo{
         float: left;
+        padding: 8px 16px;
+        display: block;
+        
     }
     .nav-section{
         float: right;
+        color: white;
+        .nav{
+            .nav-item{
+                .nav-link{
+                    color: white;
+                }
+            }
+        }
     }
 }
