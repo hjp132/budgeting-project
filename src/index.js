@@ -31,7 +31,7 @@ app.use('/',router);
 
 
 app.get('/home', (req, res) => {
-    res.render('index', {
+    res.render('home', {
         title: 'Home',
         name: 'HP'
 
@@ -40,7 +40,7 @@ app.get('/home', (req, res) => {
 
 
 app.get('*', (req, res) => {
-    res.render('layout', {
+    res.render('home', {
         title: 'Home'
     })
 });
