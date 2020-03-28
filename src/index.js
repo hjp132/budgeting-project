@@ -31,16 +31,22 @@ app.use('/',router);
 
 
 app.get('/home', (req, res) => {
-    res.render('home', {
+    res.render('layout', {
         title: 'Home',
-        name: 'HP'
+        body: 'Homepage'
+    })
+});
 
+
+app.get('/signup', (req, res) => {
+    res.render('layout', {
+        title: 'Sign Up',
     })
 });
 
 
 app.get('*', (req, res) => {
-    res.render('home', {
+    res.render('layout', {
         title: 'Home'
     })
 });
